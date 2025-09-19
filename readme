@@ -1,2 +1,8 @@
-gcc main.c Classes.h Methodes.c -o demo     `sdl-config --cflags --libs`     -lSDL_ttf -lSDL_mixer
+Ce programme ne fait pas grand chose. L'important ici c'est comment le code a été conçu, en imitant la POO.
 
+1) Pour compiler :
+gcc main.c Classes.h Methodes.c -o demo `sdl-config --cflags --libs` -lSDL_ttf -lSDL_mixer
+2) Pour exécuter :
+./demo
+
+Note : Assurez-vous d'avoir SDL et SDL image avant. Faites apt search sdl1.2 et sdl-image1.2 et installez les versions -dev avant de compiler.
