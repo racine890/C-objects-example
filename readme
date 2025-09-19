@@ -1,0 +1,2 @@
+gcc main.c Classes.h Methodes.c -o demo     `sdl-config --cflags --libs`     -lSDL_ttf -lSDL_mixer
+
